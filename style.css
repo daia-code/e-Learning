@@ -1,0 +1,193 @@
+html{
+    margin: 0%;
+}
+ h6{
+    font-weight: bold;
+    color: rgb(101, 161, 201);
+    font-size: 5ch;
+    text-align: center;
+    
+}
+h3{
+    font-weight: bold;
+    color: rgb(101, 161, 201);
+    padding-left: 140px;
+    font-size: 3ch;
+
+}
+p{
+    padding-inline: 140px;
+}
+.logo h3 {
+    color: rgb(101, 161, 201);
+    font-size: 30px;
+    margin-left: 0;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Cinzel', serif;
+    position: relative;
+}
+.logo p {
+    font-size: 14px;
+    left: 45px;
+    color: rgb(101, 161, 201);
+    font-weight: 400;
+    font-style: italic;
+    position: relative;
+}
+
+.meniu{
+    justify-content: right;
+    display: grid;
+}
+ul{
+    display: inline-flex;
+ margin: 0 auto;
+  padding: 0;
+  width: 40%;
+  min-width: 555px;
+  position:relative;
+}
+
+li {
+    margin: 0 auto;
+    list-style: none;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    letter-spacing:.2em;
+    justify-content:flex-end;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(101, 161, 201);
+    font-size: 16px;
+    font-weight:400;
+    
+    }
+   .meniu ul li a:hover{
+        transform :scale(1.1);
+        color:rgb(6, 82, 196);
+        font-size: 16px;
+        font-weight:600;
+        transition: .4s;
+        
+    }
+.imageFun{
+   
+    width: 25%;
+    padding-left: 35%;
+    margin-inline: 5%;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5cm;
+    
+  }
+  footer {
+      display: flex;
+      
+      width: 100%;
+      justify-content: center;
+      margin: 50px;
+      font-family: 'Jost', sans-serif;
+      font-size: 15px;
+  }
+  .text  h2{
+padding-left: 5%;
+color:black;
+font-size: 25px;
+font-family: sans-serif;
+
+  }
+  .text ul li a:hover{
+    transform :scale(1.1);
+        color:rgb(101, 161, 201);
+        font-size: 20px;
+        font-weight:600;
+        transition: 1.6s;
+  }
+  .presentation{
+    margin-left: 10%;
+  }
+  .presentation h6{
+    color:rgb(101, 161, 201);
+    font-size: 30px;
+    font-weight:600;
+text-align: left;
+  }
+  .presentation p{
+   
+    font-size: 20px;
+    font-weight:200;
+    padding-inline: 50px;
+  }
+  .social-media{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    
+  }
+  .social-media ul {
+    position:absolute;
+   
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin:0;
+    padding:0;
+    display:flex;
+  }
+  
+  .social-media ul li {
+    list-style: none;
+  
+  }
+  
+  .social-media ul li a {
+    position: relative;
+    width:60px;
+    height:60px;
+    display:block;
+    text-align:center;
+    margin:0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration:none;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    background: linear-gradient(0deg, #ddd, #fff);
+    transition: .5s;
+  }
+  
+  .social-media ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    text-decoration:none;
+  }
+  
+  .social-media ul li a .fab {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: linear-gradient(0deg, #fff, #ddd);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size:24px;
+    color: #262626;
+    transition: .5s;
+  }
+  
+  .social-media ul li:nth-child(1) a:hover .fab {
+    color: #050911;
+  }
+  
+  .social-media ul li:nth-child(2) a:hover .fab {
+    color: #00aced;
+  }
+  
+  .social-media ul li:nth-child(3) a:hover .fab {
+    color: #ac208d;
+  }
+  
+  
