@@ -17,6 +17,8 @@ h3{
 }
 p{
     padding-inline: 140px;
+     font-family: monospace;
+    color: skyblue;
 }
 .logo h3 {
     color: rgb(101, 161, 201);
